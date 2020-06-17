@@ -1,2 +1,1 @@
-# ozyory
 «Ozyory» Aegea theme
