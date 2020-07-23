@@ -271,7 +271,7 @@ mark:not(.e2-tag) {
 
 mark.e2-tag {
     display: inline;
-    background: var(--markedTextBackground);
+    background: rgba(0,117,255,0.3) !important;
     color: inherit;
 }
 
@@ -332,6 +332,15 @@ p b {
     font-family: p8sans;
 }
 
+kbd {
+    font-family: p8mono;
+    padding: .2em .4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(27,31,35,.05);
+    border-radius: 4px;
+}
+
 .e2-comments-toggle {
     margin:0 0 20px;
 }
@@ -339,7 +348,7 @@ p b {
 .e2-note-meta .e2-tag {
     font-size: 14px;
     color: #0075ff !important;
-    background: rgba(0,117,255,.12) !important;
+    background: rgba(0,117,255,.12);
     border-radius: 4px !important;
     white-space: pre-wrap !important;
     padding: 1px 4px !important;
@@ -367,10 +376,6 @@ p b {
     margin-top: 20px !important;
 }
 
-.about p {
-    line-height: 30px !important;
-}
-
 .e2-comment-piece-marked {
     background: none !important;
 }
@@ -382,8 +387,10 @@ p b {
 
 .e2-note-text blockquote, .e2-comment-content blockquote {
     font-size: 24px !important;
-    background: #f5f5ea !important;
-    border-radius: 8px !important;
+    font-family: p8sans !important;
+    background: #fff !important;
+    border-radius: 14px !important;
+    border: 1px solid rgba(0, 0, 0, 0.15) !important;
     max-width: 720px !important;
     padding-left: 20px !important;
     padding-top: 10px !important;
@@ -391,6 +398,11 @@ p b {
     padding-right: 20px !important;
     margin-top: 20px !important;
     margin-bottom: 20px !important;
+}
+
+.e2-note-text blockquote p {
+    font-family: p8sans !important;
+    color: #000 !important;
 }
 
 .e2-note-text cite, .e2-comment-content cite {
