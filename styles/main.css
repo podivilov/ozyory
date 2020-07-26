@@ -385,6 +385,18 @@ kbd {
     content: '★';
 }
 
+.e2-text-code {
+    border-radius: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 720px;
+}
+
 .e2-note-text blockquote, .e2-comment-content blockquote {
     font-size: 24px !important;
     font-family: p8sans !important;
@@ -1906,7 +1918,6 @@ a.admin-menu-comments-count.hover {
     max-width: 720px
 }
 
-.e2-text-code,
 .e2-text ul,
 .e2-text ol,
 .e2-text blockquote {
